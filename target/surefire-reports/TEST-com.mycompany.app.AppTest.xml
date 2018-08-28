@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.mycompany.app.AppTest" time="0.003" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\workspace\JAVA\my-app"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\workspace\JAVA\my-app"/>
+    <property name="java.runtime.version" value="1.8.0_171-1-redhat-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\Program Files\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\Rtools\bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;E:\Git\cmd;C:\Program Files\Microsoft VS Code\bin;E:\Go\bin;E:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;E:\Anaconda3;E:\LOVE;C:\Program Files\heroku\bin;C:\Users\Administrator\go\bin;E:\Go\bin;E:\Program Files\R\R-3.5.1\bin;E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\bin;E:\Program Files\apache-maven-3.5.4\bin;C:\Users\Administrator\AppData\Roaming\npm;E:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="E:\Program Files\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="E:\Program Files\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="E:\Program Files\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install -f e:\workspace\JAVA\my-app\pom.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171-1-redhat"/>
+    <property name="java.ext.dirs" value="E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre\lib\resources.jar;E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre\lib\rt.jar;E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre\lib\sunrsasign.jar;E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre\lib\jsse.jar;E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre\lib\jce.jar;E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre\lib\charsets.jar;E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre\lib\jfr.jar;E:\Program Files\java-1.8.0-openjdk-1.8.0.171-1.b10.redhat.windows.x86_64\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\Program Files\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.mycompany.app.AppTest" name="testApp" time="0.003"/>
+</testsuite>
